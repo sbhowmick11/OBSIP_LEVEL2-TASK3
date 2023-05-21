@@ -61,6 +61,18 @@ button
     border-radius: 40px;
 
 }
+@media (max-width:400px)
+{
+    button
+    {
+        padding: 16px 25px;
+    }
+    .todo {
+       
+        padding: 39px 13px 70px;
+    
+    }
+}
 button:hover
 {
     filter: brightness(130%);
